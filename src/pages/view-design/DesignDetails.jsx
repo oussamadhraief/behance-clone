@@ -65,11 +65,11 @@ export function DesignDetail() {
         <div className="flex items-center justify-between mb-6">
           <div className="flex items-center space-x-4">
             <Avatar>
-              <AvatarImage src={design.design.appUser.profilePicture} alt={design.design.appUser.name} />
-              <AvatarFallback>{design?.design?.appUser?.name?.charAt(0)}</AvatarFallback>
+              <AvatarImage src={design.design.appUser.profilePicture} alt={design.design.appUser.username} />
+              <AvatarFallback>{design?.design?.appUser?.username?.charAt(0)}</AvatarFallback>
             </Avatar>
             <div>
-              <p className="font-semibold">{design.design.appUser.name}</p>
+              <p className="font-semibold">{design.design.appUser.username}</p>
               <p className="text-sm text-muted-foreground">Follow</p>
             </div>
           </div>

@@ -41,11 +41,11 @@ export function DesignsGrid() {
                     <div className="flex items-center gap-2">
                       <img
                         src={`http://localhost:9696${design.appUser.profilePicture}`}
-                        alt={design.appUser.name}
+                        alt={design.appUser.username}
                         className="h-8 w-8 rounded-full"
                       />
                       <p className="text-sm text-muted-foreground">
-                        {design.appUser.name}
+                        {design.appUser.username}
                       </p>
                     </div>
                     <div className="flex gap-4 mt-2 text-sm text-muted-foreground">
